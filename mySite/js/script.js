@@ -1,14 +1,14 @@
 $(document).ready(function(){
 	$(".pagediv").hide();
-	$(".default-nav-title").css("background-color","snow");
+	$(".default-nav-title").css("color","#E8E8E8");
 	$($(".default-nav-title").attr('href')).show();
 	
 	
 	$(".nav-title").click(function(e){
 		e.preventDefault();
-		$(".nav-title").css("background-color","white");
+		$(".nav-title").css("color","white");
 		$(".pagediv").hide();
-		$(this).css("background-color","snow");
+		$(this).css("color","#E8E8E8");
 		var showingDiv=$(this).attr('href');
 		$(showingDiv).show();
 	});
