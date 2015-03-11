@@ -1,0 +1,112 @@
+body{
+	font-family: Arial;
+	margin:0px;
+	background-color:white;
+}
+#nav{
+	list-style-type: none;
+	background-color: #606060;
+	margin:0px;
+	padding:10px;
+	text-align:center;
+}
+#nav li{
+	font-family: verdana;
+	display: inline;
+	padding: 20px;
+	font-size: 110%;
+}
+#nav a{
+	padding: 3px 25px 3px 25px;
+	width:200px;
+	color:lightgray;
+	background-color: #606060;
+	text-decoration:none;
+}
+#nav a:hover{
+	color:#B0B0B0;
+	
+}
+#content{
+	margin:0 auto;
+	max-width:800px;
+	display:none;
+}
+.level-one-info{
+	font-size:23px;
+	font-weight: bold;
+	letter-spacing:1px;
+	margin-top:10px;
+	padding-top:40px;
+	margin-bottom:30px;
+}
+.level-two-info{
+	margin-top:10px;
+	font-size:18px;
+	letter-spacing: 0.5px;
+}
+.level-three-info{
+	margin-top:5px;
+	padding-left:7px;
+	font-size:15px;
+	color:#383838;
+	margin-top:1px;
+}
+.level-four-info{
+	
+}
+.extra-info{
+	color:DarkGray;
+	font-size:16px;
+}
+.date-info{
+	color:DarkGray;
+	font-family:Arial;
+	font-style: italic;
+    font-size:14px;
+    letter-spacing:0px;
+}
+.to-right{
+	float:right;
+}
+#experience .organization-logo{
+	float:left;
+	position: absolute;
+}
+#experience .organization-logo img{
+	height:90px;
+}
+.middle-size-img{
+	height:100px;
+}
+.organization-title{
+	text-align:center;
+}
+#life #imageModal{
+	background: black;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	display:none;
+	opacity:0.3;
+	position: fixed;
+	z-index:999;	
+}
+#socialInfo{
+	background-color:lightgray;
+	bottom:0px;
+	position:fixed;
+	width:200px;
+}
+#socialInfo ul{
+	list-style-type:none;
+	padding:0 0 0 20px;
+}
+#socialInfo ul li a{
+	color:#606060;
+}
+#socialInfo ul li a:hover{
+	color:black;
+}
